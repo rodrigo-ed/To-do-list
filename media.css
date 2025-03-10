@@ -1,0 +1,72 @@
+/* Responsividade */
+
+/* Dispositivos móveis */
+@media (max-width: 600px) {
+    .container {
+        width: 400PX;
+        height: 90vh;
+        overflow: auto;
+        word-wrap: break-word;
+        white-space: normal;
+        text-overflow: ellipsis;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    h3 {
+        font-size: 0.75rem;
+    }
+
+
+    li {
+        max-width: 600px;
+
+    }
+
+}
+
+/* Tablets */
+@media (min-width: 601px) and (max-width: 768px) {
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    h3 {
+        font-size: 0.75rem;
+    }
+
+    li {
+        max-width: 600px;
+
+    }
+
+}
+
+/* Modo retrato */
+@media (orientation: portrait) {
+    .container {
+        padding: 10px;
+    }
+}
+
+/* Alta resolução */
+@media (min-resolution: 300dpi) {
+    .container {
+        border: 2px solid black;
+    }
+}
